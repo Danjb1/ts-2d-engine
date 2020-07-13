@@ -1,0 +1,30 @@
+:root{
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  text-align: center;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+}
+
+.container {
+  position: relative;
+  width: 800px;
+  margin: auto;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  background-color: #949494;
+}
+
+#game-canvas {
+  display: block;
+  margin: auto;
+}
+
+#game-container {
+  margin: 0 auto;
+  position: relative;
+  height: 600px;
+}
